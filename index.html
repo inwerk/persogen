@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>PersoGen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Generiere Ausweisnummmern für deutsche Personalausweise.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <noscript>Please enable JavaScript in your browser.</noscript>
+        <fieldset id="fieldset" class="invisible">
+            <legend id="fieldset-legend"></legend>
+            <form>
+                <input id="input-field-1" class="input-field" type="text" maxlength=4>
+                <label id="input-field-1-label" for="input-field-1"></label>
+                <br>
+                <input id="input-field-2" class="input-field" type="text" maxlength=5>
+                <label id="input-field-2-label" for="input-field-2"></label>
+                <br>
+                <input id="input-field-3" class="input-field" type="date">
+                <label id="input-field-3-label" for="input-field-3"></label>
+                <br>
+                <input id="input-field-4" class="input-field" type="date">
+                <label id="input-field-4-label" for="input-field-4"></label>
+                <br>
+                <input id="input-field-5" class="input-field" type="date">
+                <label id="input-field-5-label" for="input-field-5"></label>
+                <br>
+                <button id="button-reset"></button>
+                <button id="button-random"></button>
+            </form>
+            <br>
+            <label id="output-field-label" for="output-field"></label>
+            <br>
+            <textarea id="output-field" rows="3" cols="30" readonly></textarea>
+        </fieldset>
+    </div>
+    <div class="footer">
+        <p> <span id="privacy-link" style="cursor: pointer; color: blue; text-decoration: underline;">Privacy</span> | <a id="github-link" href="https://github.com/inwerk/persogen#PersoGen">GitHub</a></p>
+        <div id="privacy-notice-container"></div>
+        <p id="privacy-notice" class="invisible"></p>
+        <p id="copyright">© 2024 by inwerk</p>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

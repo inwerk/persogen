@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: flex-start; /* Align to the top */
+    align-items: center; /* Center children horizontally */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+.dashboard {
+    display: flex;
+    justify-content: center; /* Center the dashboard horizontally */
+    width: 100%; /* Ensure it takes full width */
+}
+
+.footer {
+    margin-top: 10px; /* Add some space above the footer */
+    text-align: center; /* Center the text */
+    width: 100%; /* Ensure it takes full width */
+}
+
+.placeholder {
+    color: rgba(0, 0, 0, 0.5); /* Light gray color for the placeholder */
+    opacity: 1; /* Ensure full opacity */
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.5); /* Light gray color for the placeholder */
+    opacity: 1; /* Ensure full opacity */
+}
+
+.invisible {
+    display: none; /* Hide element */
+}
+
+fieldset {
+    margin-top: 20px; /* Add some space from the top */
+    border: 2px solid #000; /* Make the border thicker */
+    font-size: 18px /* Increase the font size */
+}
+
+input, button, textarea {
+    font-size: 18px; /* Increase font size for input, button, and textarea */
+}
+
+input {
+    width: 40%; /* Set the width to 40% of the parent container */
+    box-sizing: border-box; /* Ensure padding is included in the total width */
+}
+
+textarea {
+    resize: none; /* Disable resizing */
+}
