@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column; /* Stack children vertically */
-    justify-content: flex-start; /* Align to the top */
+    justify-content: space-between; /* Distribute space between children */
     align-items: center; /* Center children horizontally */
     height: 100vh; /* Full viewport height */
     margin: 0; /* Remove default margin */
