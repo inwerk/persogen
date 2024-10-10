@@ -14,7 +14,6 @@ body {
 }
 
 .footer {
-    margin-top: 10px; /* Add some space above the footer */
     text-align: center; /* Center the text */
     width: 100%; /* Ensure it takes full width */
 }
