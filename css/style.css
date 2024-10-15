@@ -16,6 +16,7 @@ body {
 .footer {
     text-align: center; /* Center the text */
     width: 100%; /* Ensure it takes full width */
+    margin-top: -20px; /* Move it higher */
 }
 
 .placeholder {
