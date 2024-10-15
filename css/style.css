@@ -3,11 +3,15 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
 }
 
-header a {
-    text-decoration: none;
-    color: inherit;
+main {
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
 }
 
 .placeholder {
@@ -25,8 +29,8 @@ input::placeholder {
 }
 
 fieldset {
-    border: 2px solid #000;
-    font-size: 18px
+    border: 0;
+    font-size: 18px;
 }
 
 input, button, textarea {
@@ -40,4 +44,23 @@ input {
 
 textarea {
     resize: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #007BFF;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    text-align: center;
 }

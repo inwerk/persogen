@@ -31,7 +31,7 @@ TODO
 
 ## Security
 
-_PersoGen_ operates entirely on your local device, meaning the server does not store or process any personal data. User inputs remain on the device and are not transmitted to the server.
+_PersoGen_ operates on your local device, meaning the server does not store or process any personal data. User inputs remain on the device and are not transmitted to the server.
 
 ## Credits
 
