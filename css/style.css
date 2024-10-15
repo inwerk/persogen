@@ -1,52 +1,43 @@
 body {
     display: flex;
-    flex-direction: column; /* Stack children vertically */
-    justify-content: space-between; /* Distribute space between children */
-    align-items: center; /* Center children horizontally */
-    height: 100vh; /* Full viewport height */
-    margin: 0; /* Remove default margin */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.dashboard {
-    display: flex;
-    justify-content: center; /* Center the dashboard horizontally */
-    width: 100%; /* Ensure it takes full width */
-}
-
-.footer {
-    text-align: center; /* Center the text */
-    width: 100%; /* Ensure it takes full width */
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .placeholder {
-    color: rgba(0, 0, 0, 0.5); /* Light gray color for the placeholder */
-    opacity: 1; /* Ensure full opacity */
+    color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
 }
 
 input::placeholder {
-    color: rgba(0, 0, 0, 0.5); /* Light gray color for the placeholder */
-    opacity: 1; /* Ensure full opacity */
+    color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
 }
 
 .invisible {
-    display: none; /* Hide element */
+    display: none;
 }
 
 fieldset {
-    margin-top: 20px; /* Add some space from the top */
-    border: 2px solid #000; /* Make the border thicker */
-    font-size: 18px /* Increase the font size */
+    border: 2px solid #000;
+    font-size: 18px
 }
 
 input, button, textarea {
-    font-size: 18px; /* Increase font size for input, button, and textarea */
+    font-size: 18px;
 }
 
 input {
-    width: 40%; /* Set the width to 40% of the parent container */
-    box-sizing: border-box; /* Ensure padding is included in the total width */
+    width: 40%;
+    box-sizing: border-box;
 }
 
 textarea {
-    resize: none; /* Disable resizing */
+    resize: none;
 }

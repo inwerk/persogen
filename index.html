@@ -8,41 +8,44 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="dashboard">
-        <noscript><p>Please enable JavaScript in your browser.</p></noscript>
-        <fieldset id="fieldset" class="invisible">
-            <legend id="fieldset-legend"></legend>
-            <form>
-                <input id="input-field-1" class="input-field" type="text" maxlength=4>
-                <label id="input-field-1-label" for="input-field-1"></label>
+    <header>
+        <h1><a href="index.html">PersoGen</a></h1>
+    </header>
+    <main>
+        <div class="persogen-dashboard">
+            <noscript><p>Please enable JavaScript in your browser.</p></noscript>
+            <fieldset id="fieldset" class="invisible">
+                <legend id="fieldset-legend"></legend>
+                <form>
+                    <input id="input-field-1" class="input-field" type="text" maxlength=4>
+                    <label id="input-field-1-label" for="input-field-1"></label>
+                    <br>
+                    <input id="input-field-2" class="input-field" type="text" maxlength=5>
+                    <label id="input-field-2-label" for="input-field-2"></label>
+                    <br>
+                    <input id="input-field-3" class="input-field" type="date">
+                    <label id="input-field-3-label" for="input-field-3"></label>
+                    <br>
+                    <input id="input-field-4" class="input-field" type="date">
+                    <label id="input-field-4-label" for="input-field-4"></label>
+                    <br>
+                    <input id="input-field-5" class="input-field" type="date">
+                    <label id="input-field-5-label" for="input-field-5"></label>
+                    <br>
+                    <button id="button-reset"></button>
+                    <button id="button-random"></button>
+                </form>
                 <br>
-                <input id="input-field-2" class="input-field" type="text" maxlength=5>
-                <label id="input-field-2-label" for="input-field-2"></label>
+                <label id="output-field-label" for="output-field"></label>
                 <br>
-                <input id="input-field-3" class="input-field" type="date">
-                <label id="input-field-3-label" for="input-field-3"></label>
-                <br>
-                <input id="input-field-4" class="input-field" type="date">
-                <label id="input-field-4-label" for="input-field-4"></label>
-                <br>
-                <input id="input-field-5" class="input-field" type="date">
-                <label id="input-field-5-label" for="input-field-5"></label>
-                <br>
-                <button id="button-reset"></button>
-                <button id="button-random"></button>
-            </form>
-            <br>
-            <label id="output-field-label" for="output-field"></label>
-            <br>
-            <textarea id="output-field" rows="3" cols="30" readonly></textarea>
-        </fieldset>
-    </div>
-    <div class="footer">
-        <p> <span id="privacy-link" style="cursor: pointer; color: blue; text-decoration: underline;">Privacy</span> | <a id="github-link" href="https://github.com/inwerk/persogen#PersoGen">GitHub</a></p>
-        <div id="privacy-notice-container"></div>
-        <p id="privacy-notice" class="invisible"></p>
-        <p id="copyright">© 2024 by inwerk</p>
-    </div>
+                <textarea id="output-field" rows="3" cols="30" readonly></textarea>
+            </fieldset>
+        </div>
+    </main>
+    <footer>
+        <p> <a id="privacy-link" href="privacy.html">Privacy</a> | <a id="github-link" href="https://github.com/inwerk/persogen#PersoGen">GitHub</a></p>
+        <p id="copyright">&copy; 2024 by inwerk</p>
+    </footer>
     <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
