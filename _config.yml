@@ -1,0 +1,2 @@
+include: ["_headers"]
+exclude: ["**.ts", "package.json", "package-lock.json", "README.md", "tsconfig.json"]

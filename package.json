@@ -1,0 +1,13 @@
+{
+  "name": "persogenius.de",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assets/js/persogen.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  },
+  "private": true
+}
