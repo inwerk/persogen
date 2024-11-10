@@ -13,6 +13,12 @@ _persogenius.de_ is a simple web application designed to generate valid machine-
 
 TODO
 
+
+| 0 | ... | 9 | A  | ... | Z  |
+|---|-----|---|----|-----|----|
+| 0 | ... | 9 | 10 | ... | 35 |
+
+
 ## Installation
 
 _persogenius.de_ is built on the [Jekyll](https://jekyllrb.com/docs/) static website generator; therefore, Jekyll must be installed prior to proceeding.
