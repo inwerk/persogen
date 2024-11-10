@@ -19,17 +19,16 @@ a:hover { color: #007BFF; text-decoration: underline; }
 
 /** Wrapper */
 .wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px;  }
-
 @media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
 
 /** Site header */
-.site-header { min-height: 56px; position: relative; }
+.site-header { min-height: 56px; position: relative; margin-bottom: 5px;}
 .site-title { font-size: 2em; font-weight: bold; line-height: 54px; letter-spacing: -1px; margin-bottom: 0; float: left; }
 .site-title, .site-title:visited { color: inherit; }
 .site-title, .site-title:hover { color: inherit; text-decoration: none; }
 
 /** Site footer */
-.site-footer { text-align: center; padding: 15px 0; }
+.site-footer { text-align: center; padding: 15px 0; margin-top: 15px;}
 
 /** Placeholder */
 .placeholder { color: rgba(0, 0, 0, 0.5); opacity: 1; }
