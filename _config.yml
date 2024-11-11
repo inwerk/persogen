@@ -1,2 +1,7 @@
+# Include in processing.
+# The following items will be processed.
 include: ["_headers"]
+
+# Exclude from processing.
+# The following items will not be processed.
 exclude: ["**.ts", "package.json", "package-lock.json", "README.md", "tsconfig.json"]

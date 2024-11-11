@@ -14,9 +14,9 @@ _persogenius.de_ is a simple web application designed to generate valid machine-
 TODO
 
 
-| 0 | ... | 9 | A  | ... | Z  |
-|---|-----|---|----|-----|----|
-| 0 | ... | 9 | 10 | ... | 35 |
+| 0 | 1 | ... | 8 | 9 | A  | B  | ... | Y  | Z  |
+|---|---|-----|---|---|----|----|-----|----|----|
+| 0 | 1 | ... | 8 | 9 | 10 | 11 | ... | 34 | 35 |
 
 
 ## Installation
